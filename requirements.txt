@@ -1,0 +1,10 @@
+langchain
+langchain-community
+streamlit
+sentence-transformers
+pypdf
+faiss-cpu
+ollama
+langchain_ollama
+transformers
+torch

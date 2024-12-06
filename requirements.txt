@@ -8,3 +8,6 @@ ollama
 langchain_ollama
 transformers
 torch
+fastapi
+nltk
+rouge-score

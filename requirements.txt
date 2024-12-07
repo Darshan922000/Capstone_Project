@@ -11,3 +11,4 @@ torch
 fastapi
 nltk
 rouge-score
+uvicorn

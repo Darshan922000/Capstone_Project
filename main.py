@@ -22,7 +22,7 @@ embedding_vectorestore = FAISS.load_local("faiss_index", embeddings, allow_dange
 retriever = embedding_vectorestore.as_retriever(search_type="similarity")
 
 # Initialize the LLM
-llm = OllamaLLM(model="llama3.2:1b")
+llm = OllamaLLM(model="llama3.2:3b")
 qa = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=retriever)
 
 @app.post("/query/")
